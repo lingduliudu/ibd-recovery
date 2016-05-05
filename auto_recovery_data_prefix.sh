@@ -50,5 +50,5 @@ EOF
 ALTER TABLE $db.$table IMPORT TABLESPACE;
 EOF
 		echo "[Info] Import $db.$table tablespace end at `date "+%Y-%m-%d %H:%M:%S"`."
-	done
+	done 
 done
